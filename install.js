@@ -17,7 +17,7 @@ systemfiles = [
     process.env.NODE_UNICODETABLE_UNICODEDATA_TXT || "UnicodeData.txt", // manually downloaded
 ],
 unicodedatafile = {
-    host: "unicode.org",
+    host: "http://unicode.org",
     path: "/Public/UNIDATA/UnicodeData.txt",
     method: 'GET',
     port:80,
